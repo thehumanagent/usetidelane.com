@@ -6,30 +6,53 @@
 <meta name="description" content="Tidelane is a small research business in Vancouver, British Columbia, run by Calvin Chen with AI agents.">
 <link rel="icon" href="data:,">
 <style>
-:root{--bg:#fafaf8;--fg:#1d1d1f;--muted:#6e6e73;--link:#0a58ca}
-@media (prefers-color-scheme:dark){:root{--bg:#141416;--fg:#ececee;--muted:#9a9aa0;--link:#7ab0ff}}
+:root{--bg:#fafaf8;--fg:#1d1d1f;--muted:#6e6e73;--link:#0a58ca;--card:#f1f1ec;--line:#d9d9d2}
+@media (prefers-color-scheme:dark){:root{--bg:#141416;--fg:#ececee;--muted:#9a9aa0;--link:#7ab0ff;--card:#1d1d21;--line:#34343a}}
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}
 main{max-width:640px;margin:0 auto;padding:56px 22px 40px}
-h1{font-size:2rem;margin:0 0 16px}
+h1{font-size:2rem;line-height:1.25;margin:0 0 16px}
+h2{font-size:1.2rem;margin:32px 0 8px}
 p,li{font-size:1.1rem}
 p{margin:0 0 16px}
-ul{margin:0 0 16px;padding-left:1.2em}
+ul,ol{margin:0 0 16px;padding-left:1.2em}
 li{margin:0 0 6px}
 a{color:var(--link);overflow-wrap:anywhere}
+.nav{font-size:1rem;margin:0 0 24px}
+.work ul{list-style:none;padding:0}
+.work li{margin:0 0 10px}
+.work a{display:block;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--card);text-decoration:none}
+.work a::after{content:" \2192"}
+.ex{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px 4px;margin:24px 0}
+.ex p,.ex li{font-size:1rem;overflow-wrap:anywhere}
+.tag{font-size:.8rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.about{border-top:1px solid var(--line);margin-top:40px;padding-top:24px}
+.note{font-size:.9rem;color:var(--muted)}
 footer{margin-top:40px;font-size:.9rem;color:var(--muted)}
 </style></head>
 <body><main>
 <h1>Tidelane</h1>
 <p>Tidelane is a small research business in Vancouver, British Columbia. I'm Calvin Chen, and I run it.</p>
 <p>Here's the kind of work it takes on:</p>
+<div class="work">
 <ul>
-<li>Finding open public bids that fit a subcontractor's trade.</li>
-<li>Checking what ChatGPT and other AI tools say about a company.</li>
-<li>Tracking new trials, papers and news around a biotech's drug program.</li>
+<li><a href="bids/">Finding open public bids that fit a subcontractor's trade.</a></li>
+<li><a href="ai-answers/">Checking what ChatGPT and other AI tools say about a company.</a></li>
+<li><a href="program-brief/">Tracking new trials, papers and news around a biotech's drug program.</a></li>
 </ul>
+</div>
+<p>If I emailed you about one of these, its page shows an example of the work.</p>
 <p>Just so you know: AI agents do most of this work and write my emails. I'm responsible for all of it.</p>
 <p>I was a machine learning engineer at a big US tech company for three years. Before that, I spent about a year and a half at a UBC hospital research group, building AI that reads medical charts.</p>
+<h2>How the work is done</h2>
+<ul>
+<li>It all comes from public sources: what AI tools tell a buyer, public bid pages, trial registries and papers. I don't need your data or access to your systems.</li>
+<li>Each list, page or brief is dated, and each item in it says where it came from.</li>
+<li>You get it by email. There's nothing to sign up for.</li>
+<li>If I emailed you, I found your address on your company's website.</li>
+</ul>
+<p>The first piece is free: a short bid list, a one-page look at AI answers, or a one-page brief. Anything more is paid, and I'll give you the price in my reply.</p>
+<p>Tidelane is new. It started in the fall of 2026, so you won't find much about it online yet.</p>
 <p>Email: <a href="mailto:calvin@usetidelane.com">calvin@usetidelane.com</a></p>
 <p>If I emailed you and you'd rather not hear from me, just reply and say so. I'll stop. You can also email <a href="mailto:calvin@usetidelane.com?subject=unsubscribe">calvin@usetidelane.com</a> with "unsubscribe" in the subject.</p>
 <footer>&copy; 2026 Tidelane</footer>
